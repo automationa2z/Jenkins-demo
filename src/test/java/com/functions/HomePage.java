@@ -13,4 +13,9 @@ public class HomePage {
     public void select_a_MenuItem(){
         System.out.println("Current users able to select an item from the menu");
     }
+
+    @Test
+    public void add_item_in_bucket(){
+        System.out.println("Adding item in a bucket");
+    }
 }
