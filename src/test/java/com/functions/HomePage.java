@@ -18,4 +18,9 @@ public class HomePage {
     public void add_item_in_bucket(){
         System.out.println("Adding item in a bucket");
     }
+
+    @Test
+    public void checkout_Items_in_bucket(){
+        System.out.println("Checking out items in the bucket");
+    }
 }
