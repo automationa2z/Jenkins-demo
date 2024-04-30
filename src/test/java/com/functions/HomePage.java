@@ -23,4 +23,9 @@ public class HomePage {
     public void checkout_Items_in_bucket(){
         System.out.println("Checking out items in the bucket");
     }
+
+    @Test
+    public void verify_bucket_is_empty(){
+        System.out.println("After checkout bucket is empty.");
+    }
 }
