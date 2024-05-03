@@ -1,11 +1,16 @@
 package com.functions;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
 public class HomePage {
 
+    private static Logger LOGGER = LogManager.getLogger(HomePage.class);
     @Test
     public void logIn(){
+
+        LOGGER.info("Starting test login.........!!");
         System.out.println("Current users able to log in to the application");
     }
 
@@ -27,5 +32,10 @@ public class HomePage {
     @Test
     public void verify_bucket_is_empty(){
         System.out.println("After checkout bucket is empty.");
+    }
+
+    @Test
+    public void verify_successful_order(){
+        System.out.println("Order was successful");
     }
 }
