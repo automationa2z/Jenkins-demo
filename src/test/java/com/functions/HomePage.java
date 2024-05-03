@@ -36,6 +36,6 @@ public class HomePage {
 
     @Test
     public void verify_successful_order(){
-        System.out.println("Order was successful");
+        System.out.println;
     }
 }
